@@ -1,16 +1,30 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: rgb(76,0,247);
     
     background: linear-gradient(90deg, rgb(76,0,247) 35%, rgba(251,249,249,0.006039915966386533) 30%);
 
 }
+
+h1{
+    margin-bottom: -20px;
+}
 p{
     font-size: 16px;
 }
+
 h6{
     font-size: 16px;
+    line-height: 0.15px;
+}
+.spacing>h6{
+    margin-bottom: -6px;
+}
+
+.spacing>p{
+    margin-bottom: -25px;
 
 }
 /* .border{
@@ -45,12 +59,17 @@ h6{
     
 }
 .intro{
+    padding-bottom: 100px;
     padding-left: 30px;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center
+}
+.spacing{
+    height: 200px;
+    width: 420px;
 }
 .contact{
     line-height: 0.15px;
@@ -83,7 +102,7 @@ h6{
 }
 button{
     margin-top : 55px;
-    width: 220px;
+    width: 180px;
     height: 55px;
     border-radius: 25px;
 }
