@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(76,0,247);
+    
+    background: linear-gradient(90deg, rgb(76,0,247) 35%, rgba(251,249,249,0.006039915966386533) 30%);
+
+}
+p{
+    font-size: 16px;
+}
+h6{
+    font-size: 16px;
+
+}
+/* .border{
+    border: solid black 1px;
+} */
+.main-container{
+    width: 100vw;
+    height: 44vw;
+    display: flex;
+}
+
+.left-con{
+    margin-left: 35px;
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.middle-con{
+    width: 35%;
+    display: flex;
+    /* box-shadow: 5px aliceblue; */
+    justify-content: center;
+}
+
+.right-con{
+    padding-top: 40px;
+    width: 5%;
+    
+}
+.intro{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.contact{
+    line-height: 0.15px;
+}
+.media{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-img{
+    width: 20px;
+    height:20px;
+}
+.logo-img{
+    width: 250px;
+    height: 100px;
+}
+.hamburger{
+   font-size: 40px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    flex-grow: 1;
+}
+.letter{
+    letter-spacing: 4px;
+}
+button{
+    margin-top : 55px;
+    width: 220px;
+    height: 55px;
+    border-radius: 25px;
+}
+.left-button{
+    background-color:rgb(76,0,247) ;
+    color: white;
+    word-spacing: 1px;
+}
+.photo{
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 80%;
+    
+}
